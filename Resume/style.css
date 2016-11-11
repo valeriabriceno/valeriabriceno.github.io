@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Actor');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+body{
+font-size: 18px;
+font-family: 'Actor', sans-serif;
+text-decoration: none;
+
+}
+
+#container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav ul{
+  padding-left: 0px;
+}
+
+header{
+  background-color: rgb(102, 102, 255);
+  padding-left: 225px;
+  position: relative;
+font-family: 'Julius Sans One', sans-serif;
+}
+
+
+#toprow{
+  overflow: auto;
+}
+
+#education{
+  float: left;
+  border: 2px solid rgb(102, 102, 255);
+  min-height: 233px;
+  background-color:rgb(230, 230, 230);
+  width: 306px;
+  padding-left: 10px;
+  padding bottom: 10px;
+  }
+
+
+#relatedcoursework{
+  float: left;
+  border: 2px solid rgb(102, 102, 255);
+  background-color:rgb(230, 230, 230);
+  vertical-align:top;
+  min-height: 200px;
+  width: 306px;
+  padding-left: 10px;
+    min-height: 233px;
+}
+
+#profile-pic{
+  border:2px solid darkblue;
+  position: absolute;
+  left: 0px;
+  top:0px;
+  height: 293px;
+}
+
+#skills{
+  float: left;
+  border: 2px solid rgb(102, 102, 255);
+  min-height: 200px;
+  background-color:rgb(230, 230, 230);
+  vertical-align: top;
+  width: 306px;
+  padding-left: 10px;
+    min-height: 233px;
+}
+
+h1{
+  font-size: 50px;
+  color:white;
+}
+
+nav a{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+
+}
+.next-to-each-other{
+  display: inline-block;
+}
+#experience{
+  background-color: rgb(217, 217, 217);
+  display: block;
+  border: 2px solid rgb(102, 102, 255);
+  margin-top:20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 20px;
+}
+
+#photogallery{
+margin-top: 20px;
+}
+
+#profile-pic{
+  border:2px solid darkblue;
+  position: absolute;
+  left: 0px;
+  top:0px;
+}
+
+footer{
+  background-color: rgb(204, 204, 204);
+  display: block;
+  border: 2px solid rgb(102, 102, 255);
+  margin-top:15px;
+  padding-left: 20px;
+}
+
+#container{
+  max-width: 960px;
+  min-width: 360px;
+  margin:0 auto;
+  padding:10px;
+}
