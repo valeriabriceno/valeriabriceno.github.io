@@ -5,11 +5,11 @@ body{
 font-size: 18px;
 font-family: 'Actor', sans-serif;
 text-decoration: none;
-
+padding: 0px;
 }
 
-#container{
-  width: 960px;
+.about{
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -19,9 +19,81 @@ nav ul{
 
 header{
   background-color: rgb(102, 102, 255);
-  padding-left: 225px;
+  text-align: center;
   position: relative;
 font-family: 'Julius Sans One', sans-serif;
+}
+
+
+.nav ul {
+  font-family:'Julius Sans One', serif;
+  padding: 1em 0;
+  padding-left: 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.nav ul a {
+  color: #808080;
+}
+
+.nav ul a:hover {
+  color: rgb(102, 102, 255);
+}
+
+.about p {
+  text-transform: none;
+  padding-left: none;
+  line-height: 26px;
+  padding-right: 9px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.contact p {
+  text-transform: none;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-family:'PT Serif', serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.resume p {
+  color: #000
+}
+
+h2 {
+  color: white;
+}
+
+
+h3{
+  color:grey;
+}
+
+p {
+  margin-top:0;
+  margin-bottom:0;
+}
+
+
+li{
+  padding-bottom: 6px;
+  list-style: none;
+  display: inline-block;
+}
+
+
+nav{
+  text-align: center;
+  font-family: arial;
+}
+
+
+nav ul li{
+  display: inline-block;
+  width: 150px;
 }
 
 
